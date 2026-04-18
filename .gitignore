@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Generated results (don't commit large output images)
+software/results/*.png
+software/results/*.csv
+comparison/results/*.png
+comparison/results/*.csv
+
+# BUT keep placeholder files
+!software/results/.gitkeep
+!comparison/results/.gitkeep
+!hardware/simulation/.gitkeep
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.xpr
+*.bit
+*.ltx
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.gen/
+*.srcs/
+
+# Large test images (track originals, not generated)
+# Remove this if you want to commit your test images
+# software/test_images/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
