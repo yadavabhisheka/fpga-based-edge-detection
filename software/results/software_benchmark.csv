@@ -1,0 +1,3 @@
+image_name,width,height,pixels,n_runs,mean_ms,median_ms,stdev_ms,min_ms,max_ms,fps_estimate
+img1.jpg,612,306,187272,50,21.3013,27.7871,14.8646,3.0581,40.3583,46.9
+img2.jpg,612,408,249696,50,40.1799,40.4953,3.7684,34.4158,49.1909,24.9
