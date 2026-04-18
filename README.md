@@ -77,8 +77,16 @@ fpga-sobel-edge-detection/
 git clone https://github.com/yadavabhisheka/fpga-based-edge-detection
 cd fpga-based-edge-detection
 
+# Create and activate virtual environment (do this once)
+python3 -m venv venv
+source venv/bin/activate        # Linux/Mac
+venv\Scripts\activate           # Windows
+
 # Install Python dependencies
 pip install -r software/requirements.txt
+
+# Every time you open a new terminal, activate first:
+source venv/bin/activate
 
 # Run Sobel edge detection on test images
 python software/src/sobel_opencv.py
