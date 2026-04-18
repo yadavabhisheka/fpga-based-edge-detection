@@ -4,7 +4,7 @@
 **College:** Baba Sahab Dr. Bhim Rao Ambedkar College of Agriculture Engineering & Technology, Etawah  
 **Team:** Abhishek Yadav, Shri Ram Sharma, Priyanka Prajapati  
 **Guide:** Prof. DR N.K. Sharma, Head — Electronics Department  
-**Session:** 2025–26
+**Session:** 2022–26
 
 ---
 
@@ -74,8 +74,8 @@ fpga-sobel-edge-detection/
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/fpga-sobel-edge-detection.git
-cd fpga-sobel-edge-detection
+git clone https://github.com/yadavabhisheka/fpga-based-edge-detection
+cd fpga-based-edge-detection
 
 # Install Python dependencies
 pip install -r software/requirements.txt
