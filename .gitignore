@@ -1,16 +1,30 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.env
-venv/
-.venv/
+# Vivado project files - do not push
+vivado/
+vivado.jou
+vivado.log
+vivado.str
+xvlog.pb
+*.str
+*.pb
+*.jou
 
-# Generated results (don't commit large output images)
-software/results/*.png
-software/results/*.csv
-comparison/results/*.png
-comparison/results/*.csv
+# Virtual environment
+venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Software intermediate results - not needed
+software/results/*_1_gray.png
+software/results/*_2_blur.png
+software/results/*_3_gx.png
+software/results/*_4_gy.png
+software/results/*_5_magnitude.png
+
+# Hardware simulation hex files - too large
+hardware/simulation/*.hex
+hardware/simulation/*.txt
 
 # BUT keep placeholder files
 !software/results/.gitkeep
